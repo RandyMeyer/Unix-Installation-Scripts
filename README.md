@@ -1,9 +1,8 @@
 # Unix-Installation-Scripts
 
-Automation of unix installation can be accomplished with by record and replay operation or using the silent installation script.
+Automation of Unix installation can be accomplished with record and replay operation or by using the silent installation script.
 
-The install.sh script allows to install ITX command server, ITX for Launcher , ITX for Integration Servers and ITX for Application programming
-in non interactive mode (silent mode).  The scrips is support on all unix based platforms
+The install.sh script allows a user to install ITX with Command Server, ITX with Launcher, ITX for Integration Servers, ITX for Application Programming and ITX Launcher Studio in non-interactive mode (silent mode). The script is supported on all Unix-based platforms
 
 ##Automated Installs - Record & Replay
 
@@ -44,7 +43,7 @@ export  BITTYPE=64
 
 export  BVTDIR= /path/bvt9000_64
 
-export  TXINSTALLS_CORE=value (possible values are wsdtxcs wsdtxl wsdtxis wsdtxls)
+export TXINSTALLS_CORE=value (possible values are wsdtxcs wsdtxl wsdtxis wsdtxapi wsdtxls)
 
 export  TXINSTALLS_DK=none
 
@@ -74,6 +73,6 @@ b) cerate a directory /path/bvt9000_64/installs
 
 c) copy the install tar image to /path/bvt9000_64/installs
 
-     example tar image nomencleature wsdtxcs_9000_linux_64.tar
+     Example tar image nomenclature: wsdtxcs_9000_linux_64.tar
      
 d) invoke install.sh
