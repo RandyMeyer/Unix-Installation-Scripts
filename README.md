@@ -42,7 +42,7 @@ export  VRMFNUM=9000
 
 export  BITTYPE=64
 
-export  BVTDIR= /path/bvt<VRMFNUM>_64
+export  BVTDIR= /path/bvt9000_64
 
 export  TXINSTALLS_CORE=value (possible values are wsdtxcs wsdtxl wsdtxis wsdtxls)
 
@@ -55,23 +55,24 @@ export  TXINSTALLS_NOENABLEGPFS=1
 
 Values Definition : 
 
-wsdtxcs - ITX command server
+wsdtxcs - ITX with Command Server
 
-wsdtxl -  ITX Launcher 
+wsdtxl - ITX with Launcher
 
-wsdtxls  - ITX Launcher Tools
+wsdtxis - ITX for Integration Servers
 
-wsdtxis  - ITX Integration Servers
+wsdtxapi - ITX for Application Programming
 
+wsdtxls - ITX Launcher Studio
 
 
 ###Step3 create the following directory structure
 
-a) create a directory /path/bvt<VRMFNUM>_64
+a) create a directory /path/bvt9000_64
 
-b) cerate a directory /path/bvt<VRMFNUM>_64/installs
+b) cerate a directory /path/bvt9000_64/installs
 
-c) copy the install tar image to /path/bvt<VRMFNUM>_64/installs
+c) copy the install tar image to /path/bvt9000_64/installs
 
      example tar image nomencleature wsdtxcs_9000_linux_64.tar
      
