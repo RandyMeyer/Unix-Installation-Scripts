@@ -2,27 +2,6 @@
 
 FILE_REV=20151008
 
-################################################################################
-#
-# Licensed Materials - Property of IBM Corporation.
-# c Copyright IBM Corporation 2008, 2015
-#
-################################################################################
-#
-# install_wtx.sh: Install the WebSphere Transformation Extender UNIX installs.
-#
-# Search for "Begin:" to find variables to customize your install.
-#
-################################################################################
-#
-# History:
-#
-# YYYYMMDD  Who  Description
-# ========  ===  ===============================================================
-# 20150317  gbc  Initial revision for BlueMix.
-#
-################################################################################
-
 function InitializeEnv
 {
 	if [ -z "${VRMFNUM}" ]
