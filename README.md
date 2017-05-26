@@ -4,7 +4,7 @@ Automation of Unix installation can be accomplished with record and replay opera
 
 The install.sh script allows a user to install ITX with Command Server, ITX with Launcher, ITX for Integration Servers, ITX for Application Programming and ITX Launcher Studio in non-interactive mode (silent mode). The script is supported on all Unix-based platforms
 
-##Automated Installs - Record & Replay
+## Automated Installs - Record & Replay
 
 Options passed to DTXINST
 
@@ -17,16 +17,16 @@ Options passed to DTXINST
   
 ## examples
 
-###Automated Installs – Unix – Recording
+### Automated Installs – Unix – Recording
 
 ./DTXINST -r $MYDIR/install_prompts -l $MYDIR/install_log.wsdtxcs
 
-###Automated Installs – Unix – Playback (Silent Install)
+### Automated Installs – Unix – Playback (Silent Install)
 
 ./DTXINST -s $MYDIR/install_prompts -l $MYDIR/install_log.wsdtxcs
 
 
-##Automated Installs - Silent install
+## Automated Installs - Silent install
 
 Primary script file is install.sh. The following steps and environment variables need to be set for installing the product
 
@@ -65,7 +65,7 @@ wsdtxapi - ITX for Application Programming
 wsdtxls - ITX Launcher Studio
 
 
-###Step3 create the following directory structure
+### Step3 create the following directory structure
 
 a) create a directory /path/bvt9000_64
 
